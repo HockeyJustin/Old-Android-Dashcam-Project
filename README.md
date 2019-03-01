@@ -1,12 +1,36 @@
-# Old-Android-Dashcam-Project
-An android project published for Lollipop now removed from the store as I didn't update it.
+# Old Android Dashcam Project (2015)
 
-*** This project may not build. It is just here to show I've done a small amount of Android development.
+## This project probably wont build. It is just here to show I've done a small amount of Android development
+
+An android project published for Lollipop, now removed from the store as I didn't update it (and maybe because only I used it).
+
+Android re-did the camera API, so it won't run on current versions.
+
+The project featured:
+
+1. Working dashboard camera, that took videos in a loop, deleting old videos as necessary.
+2. Use of various other APIs such the accelerometer, to stop the camera in the even of a crash (optional).
+3. Gradle build product flavours to publish 2 different styles of the same app. Made use of a shared project.
+4. Capability for internationalisation (see screenshots)
+
+At the time it was on the Android Store, it was free. There are loads of dashcams out there. I just thought it would be an easy project to try some Android development.
+
+## Screenshots of working application
 
 
-
-Gradle builds product flavours to publish 2 different styles of the same app. Made use of a shared project.
-
+![alt tag](https://github.com/HockeyJustin/Old-Android-Dashcam-Project/blob/master/DashCam_images/readme/screen-0.jpg?raw=true)
 
 
-Was published in English and poentially German (tested multi-lingual functionality).
+![alt tag](https://github.com/HockeyJustin/Old-Android-Dashcam-Project/blob/master/DashCam_images/readme/screen-1.jpg?raw=true)
+
+
+![alt tag](https://github.com/HockeyJustin/Old-Android-Dashcam-Project/blob/master/DashCam_images/readme/screen-2.jpg?raw=true)
+
+
+![alt tag](https://github.com/HockeyJustin/Old-Android-Dashcam-Project/blob/master/DashCam_images/readme/screen-3.jpg?raw=true)
+
+
+![alt tag](https://github.com/HockeyJustin/Old-Android-Dashcam-Project/blob/master/DashCam_images/readme/screen-4.jpg?raw=true)
+
+
+![alt tag](https://github.com/HockeyJustin/Old-Android-Dashcam-Project/blob/master/DashCam_images/readme/screen-german.png?raw=true)
