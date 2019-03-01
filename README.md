@@ -6,12 +6,16 @@ An android project published for Lollipop, now removed from the store as I didn'
 
 Android re-did the camera API, so it won't run on current versions.
 
-The project featured:
+The project featured/ enabled learning of:
 
 1. Working dashboard camera, that took videos in a loop, deleting old videos as necessary.
-2. Use of various other APIs such the accelerometer, to stop the camera in the even of a crash (optional).
-3. Gradle build product flavours to publish 2 different styles of the same app. Made use of a shared project.
-4. Capability for internationalisation (see screenshots)
+2. Use of other APIs such the accelerometer, to stop the camera in the even of a crash (optional).
+3. Gradle build Product Flavours to publish 2 different styles of the same app. 
+4. Custom styles and overrides.
+5. Layout controls and exception handling.
+6. Capability for internationalisation (see screenshots)
+7. Deployment to Play Store
+
 
 At the time it was on the Android Store, it was free. There are loads of dashcams out there. I just thought it would be an easy project to try some Android development.
 
