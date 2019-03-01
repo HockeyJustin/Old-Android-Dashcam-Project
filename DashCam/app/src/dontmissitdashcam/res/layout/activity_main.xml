@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@mipmap/bg_home"
+    android:id="@+id/home_parent">
+
+    <TextView android:text="@string/project_title" android:layout_width="fill_parent"
+        android:layout_height="100dp" android:background="@drawable/titlecontainer"
+        android:gravity="center"
+        android:id="@+id/home_project_title"
+        android:textSize="24dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/home_project_title"
+        android:layout_marginTop="25dp"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_home_record_journey"
+            android:text="@string/record_journey"
+            style="@style/AppTheme.HomeButton"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_home_settings"
+            android:text="@string/action_settings"
+            style="@style/AppTheme.HomeButton"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_home_buy_now"
+            android:text="@string/purchase_app"
+            style="@style/AppTheme.HomeButton"></Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

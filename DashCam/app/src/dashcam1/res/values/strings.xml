@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dash Cam</string>
+    <string name="project_title">Dashboard Camera</string>
+    <string name="z_settings_db_name">DASHCAM1A404</string>
+</resources>

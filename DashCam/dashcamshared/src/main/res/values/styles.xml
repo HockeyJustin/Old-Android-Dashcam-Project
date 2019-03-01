@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme.HomeButton" parent="android:Widget.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/buttonstyle</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:shadowColor">#FFFFFFFF</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+    </style>
+
+</resources>
